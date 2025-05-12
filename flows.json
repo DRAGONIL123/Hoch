@@ -3415,14 +3415,6 @@
         "mode": "RWC"
     },
     {
-        "id": "4246f8e401bde047",
-        "type": "github-api-config",
-        "appId": "",
-        "instId": "",
-        "ua": "",
-        "name": ""
-    },
-    {
         "id": "b04dee56cff4ce4a",
         "type": "http request",
         "z": "2d0368e857414e1b",
