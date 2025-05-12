@@ -480,6 +480,14 @@
         "env": []
     },
     {
+        "id": "ad574475a4b7e953",
+        "type": "tab",
+        "label": "NewFlow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "2d0368e857414e1b",
         "type": "subflow",
         "name": "get token",
