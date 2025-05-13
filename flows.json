@@ -18256,8 +18256,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 250,
-        "y": 220,
+        "x": 370,
+        "y": 160,
         "wires": [
             [
                 "c8cfcfef1ea5f174"
