@@ -296,22 +296,6 @@
         "env": []
     },
     {
-        "id": "b0e3731ccf4912b5",
-        "type": "tab",
-        "label": "Поток 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "275b73b4c60ee97a",
-        "type": "tab",
-        "label": "Поток 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "266f5e7038bdea8e",
         "type": "tab",
         "label": "PeriodicalControlTasksForInspectionLots",
@@ -3424,11 +3408,13 @@
         "flowid": "5dc81021bd7bbb5b",
         "flowrevision": "",
         "notab": true,
-        "pushcomment": "First time",
+        "pushcomment": "",
         "pushnewflows": true,
         "forcepush": false,
         "tokens": [],
-        "flowrevisions": {}
+        "flowrevisions": {
+            "845e1abd965019b2": "ec573281297662f133cdf6a134abe4d41ea11287"
+        }
     },
     {
         "id": "b04dee56cff4ce4a",
