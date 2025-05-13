@@ -16162,8 +16162,8 @@
                 "valueValue": "application/hal+json"
             }
         ],
-        "x": 370,
-        "y": 260,
+        "x": 350,
+        "y": 220,
         "wires": [
             [
                 "a9aa20ca8bbc69c3"
@@ -16183,8 +16183,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 590,
-        "y": 220,
+        "x": 570,
+        "y": 180,
         "wires": []
     },
     {
