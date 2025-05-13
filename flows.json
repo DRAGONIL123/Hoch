@@ -3415,6 +3415,22 @@
         "mode": "RWC"
     },
     {
+        "id": "53ef21ee93608bb9",
+        "type": "FlowHubCfg",
+        "apiToken": "",
+        "apiTokenType": "",
+        "fullname": "",
+        "email": "",
+        "flowid": "5dc81021bd7bbb5b",
+        "flowrevision": "",
+        "notab": false,
+        "pushcomment": "",
+        "pushnewflows": false,
+        "forcepush": false,
+        "tokens": [],
+        "flowrevisions": {}
+    },
+    {
         "id": "b04dee56cff4ce4a",
         "type": "http request",
         "z": "2d0368e857414e1b",
