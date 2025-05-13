@@ -18056,8 +18056,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('firstRun', false);\nglobal.set('server', 'Develop_226');",
         "finalize": "",
         "libs": [],
-        "x": 280,
-        "y": 300,
+        "x": 180,
+        "y": 320,
         "wires": [
             [
                 "c81ace9bb68530b2",
@@ -18077,8 +18077,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 420,
+        "x": 870,
+        "y": 360,
         "wires": [
             [
                 "c8cfcfef1ea5f174"
@@ -18355,8 +18355,8 @@
         "useregex": false,
         "removeregexcommand": false,
         "outputs": 2,
-        "x": 830,
-        "y": 360,
+        "x": 870,
+        "y": 300,
         "wires": [
             [
                 "173e2584df81fa21"
