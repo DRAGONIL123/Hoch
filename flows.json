@@ -3417,17 +3417,23 @@
     {
         "id": "53ef21ee93608bb9",
         "type": "FlowHubCfg",
-        "apiToken": "",
-        "apiTokenType": "",
+        "apiToken": "fhb_WyJDdzEybUtwNzYwbUlueEcvRWhKaHV3PT0iLCJTSXFQUk9xNDJyUWNreHFnVFhZU2tzaU0wbDNzdHRVSmV0TW5WQ05SdE9TZWFSYkVFUDlzMCtkaDFET0pOVzFYT1BOZzl6dElNNVF2VlowZnpUcWMySGRjbktoL3BnYXRHNEJsTFBsOFBkQm1QUENEN2lYaWQ1Y043aXhxQU5TQmd2MmEvRmNBK3A0TFlpdFptTkVnanROaWs2N3p2cnAzIl0",
+        "apiTokenType": "cred",
         "fullname": "",
         "email": "",
         "flowid": "5dc81021bd7bbb5b",
         "flowrevision": "",
         "notab": false,
-        "pushcomment": "",
+        "pushcomment": "First time",
         "pushnewflows": false,
         "forcepush": false,
-        "tokens": [],
+        "tokens": [
+            {
+                "name": "Hoch",
+                "type": "cred",
+                "val": ""
+            }
+        ],
         "flowrevisions": {}
     },
     {
