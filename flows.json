@@ -1,13 +1,5 @@
 [
     {
-        "id": "e69fb5ef6ac144e8",
-        "type": "tab",
-        "label": "Поток 1",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "845e1abd965019b2",
         "type": "tab",
         "label": "Flow 1",
@@ -3411,7 +3403,13 @@
         "pushcomment": "",
         "pushnewflows": false,
         "forcepush": true,
-        "tokens": [],
+        "tokens": [
+            {
+                "name": "Main",
+                "type": "cred",
+                "val": "fhb_WyJDdzEybUtwNzYwbUlueEcvRWhKaHV3PT0iLCJTSXFQUk9xNDJyUWNreHFnVFhZU2tzaU0wbDNzdHRVSmV0TW5WQ05SdE9TZWFSYkVFUDlzMCtkaDFET0pOVzFYT1BOZzl6dElNNVF2VlowZnpUcWMySGRjbktoL3BnYXRHNEJsTFBsOFBkQm1QUENEN2lYaWQ1Y043aXhxQU5TQmd2MmEvRmNBK3A0TFlpdFptTkVnanROaWs2N3p2cnAzIl0"
+            }
+        ],
         "flowrevisions": {
             "845e1abd965019b2": "ec573281297662f133cdf6a134abe4d41ea11287"
         }
