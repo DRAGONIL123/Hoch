@@ -488,6 +488,14 @@
         "env": []
     },
     {
+        "id": "828f16157ef919d1",
+        "type": "tab",
+        "label": "Поток 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "2d0368e857414e1b",
         "type": "subflow",
         "name": "get token",
