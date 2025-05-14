@@ -2,7 +2,9 @@
     "name": "Hoch",
     "description": "A Node-RED Project",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "@gregoriusrippenstein/node-red-contrib-flowhub": "0.8.9"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
