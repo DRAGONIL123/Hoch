@@ -16167,7 +16167,8 @@
         "y": 220,
         "wires": [
             [
-                "a9aa20ca8bbc69c3"
+                "a9aa20ca8bbc69c3",
+                "ece8d449efda10b3"
             ]
         ]
     },
@@ -16252,6 +16253,28 @@
                 "a9aa20ca8bbc69c3"
             ]
         ]
+    },
+    {
+        "id": "fa0b3c91d80a7e18",
+        "type": "Seeker",
+        "z": "845e1abd965019b2",
+        "name": "",
+        "x": 50,
+        "y": 160,
+        "wires": [
+            [
+                "76252b674e9cbae5"
+            ]
+        ]
+    },
+    {
+        "id": "ece8d449efda10b3",
+        "type": "Sink",
+        "z": "845e1abd965019b2",
+        "name": "",
+        "x": 670,
+        "y": 200,
+        "wires": []
     },
     {
         "id": "0bda422c673ae1cc",
