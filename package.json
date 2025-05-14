@@ -3,7 +3,8 @@
     "description": "A Node-RED Project",
     "version": "0.0.1",
     "dependencies": {
-        "@gregoriusrippenstein/node-red-contrib-flowhub": "0.8.9"
+        "@gregoriusrippenstein/node-red-contrib-flowhub": "0.8.9",
+        "@meowwolf/node-red-contrib-amqp": "2.4.2"
     },
     "node-red": {
         "settings": {
