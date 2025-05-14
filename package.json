@@ -9,7 +9,8 @@
         "node-red-contrib-cron-plus": "2.1.0",
         "node-red-contrib-filesystem": "1.0.0",
         "node-red-contrib-loop": "1.0.1",
-        "node-red-contrib-loop-processing": "0.5.1"
+        "node-red-contrib-loop-processing": "0.5.1",
+        "node-red-contrib-mssql-plus": "0.12.2"
     },
     "node-red": {
         "settings": {
