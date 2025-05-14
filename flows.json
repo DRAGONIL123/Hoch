@@ -456,22 +456,6 @@
         "env": []
     },
     {
-        "id": "ad574475a4b7e953",
-        "type": "tab",
-        "label": "NewFlow",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "828f16157ef919d1",
-        "type": "tab",
-        "label": "Поток 3",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "2d0368e857414e1b",
         "type": "subflow",
         "name": "get token",
@@ -3409,7 +3393,7 @@
     {
         "id": "53ef21ee93608bb9",
         "type": "FlowHubCfg",
-        "apiToken": "fhb_WyJkS25LSXJBNDVrNlhkYUNKaDFVaFZBPT0iLCJ1bHhyWGxxWTMreFlIOXBkK3JWUUVJMGhLUHI2SjMyTDJpbDNQNkk5clhIYTVqN3ZTT1FjNmdMNHRFVnBtamhFVFdmVGh3VWg1RHR4WitweWVNb2VZRDY1bzVseDgwbVZCeUFHRnUxcWNidjJ1MUtBdTB2aGczbE4zdkhpb2JXcENyOU1wNzc5N3Y1aXJmSStrMnpEdGdEbDh2UG9ieG5wIl0",
+        "apiToken": "fhb_WyIrZklCTm1icGZNS2hIOTBoVzRsOUlnPT0iLCJlZmVmTkJDOCt1VmNCd0J0NGxQeFRSQmNvUEJYc1JuTHBzT0dMUHVBQnZxcUNDb0M3VC91dldhRHF3OVJaVjdzM25rM1BGZWc5d0wvRDl6WGE0VUJWUmpLbHdWYmtNZFRycUJwaEMwczRWby93OXkwRXlYK0IzY1N4VXpVTzVDQ2Z4YmlkUzBmc2l2UE5CRWFMeFcwZWFUbnlmQklVdExZIl0",
         "apiTokenType": "cred",
         "fullname": "",
         "email": "",
@@ -3423,7 +3407,7 @@
             {
                 "name": "Main",
                 "type": "cred",
-                "val": "fhb_WyJkS25LSXJBNDVrNlhkYUNKaDFVaFZBPT0iLCJ1bHhyWGxxWTMreFlIOXBkK3JWUUVJMGhLUHI2SjMyTDJpbDNQNkk5clhIYTVqN3ZTT1FjNmdMNHRFVnBtamhFVFdmVGh3VWg1RHR4WitweWVNb2VZRDY1bzVseDgwbVZCeUFHRnUxcWNidjJ1MUtBdTB2aGczbE4zdkhpb2JXcENyOU1wNzc5N3Y1aXJmSStrMnpEdGdEbDh2UG9ieG5wIl0"
+                "val": "fhb_WyIrZklCTm1icGZNS2hIOTBoVzRsOUlnPT0iLCJlZmVmTkJDOCt1VmNCd0J0NGxQeFRSQmNvUEJYc1JuTHBzT0dMUHVBQnZxcUNDb0M3VC91dldhRHF3OVJaVjdzM25rM1BGZWc5d0wvRDl6WGE0VUJWUmpLbHdWYmtNZFRycUJwaEMwczRWby93OXkwRXlYK0IzY1N4VXpVTzVDQ2Z4YmlkUzBmc2l2UE5CRWFMeFcwZWFUbnlmQklVdExZIl0"
             }
         ],
         "flowrevisions": {
