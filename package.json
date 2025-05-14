@@ -10,7 +10,8 @@
         "node-red-contrib-filesystem": "1.0.0",
         "node-red-contrib-loop": "1.0.1",
         "node-red-contrib-loop-processing": "0.5.1",
-        "node-red-contrib-mssql-plus": "0.12.2"
+        "node-red-contrib-mssql-plus": "0.12.2",
+        "node-red-contrib-smb2": "1.3.0"
     },
     "node-red": {
         "settings": {
