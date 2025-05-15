@@ -16115,95 +16115,6 @@
         ]
     },
     {
-        "id": "a45a6fcb2b2645a4",
-        "type": "inject",
-        "z": "845e1abd965019b2",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 220,
-        "y": 120,
-        "wires": [
-            [
-                "76252b674e9cbae5"
-            ]
-        ]
-    },
-    {
-        "id": "76252b674e9cbae5",
-        "type": "http request",
-        "z": "845e1abd965019b2",
-        "name": "",
-        "method": "GET",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "localhost:55539/api/webserver/websites",
-        "tls": "c7f2a4669e750ffc",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "basic",
-        "senderr": false,
-        "headers": [
-            {
-                "keyType": "other",
-                "keyValue": "Host",
-                "valueType": "other",
-                "valueValue": "localhost:55539"
-            },
-            {
-                "keyType": "other",
-                "keyValue": "Access-Token",
-                "valueType": "other",
-                "valueValue": "Bearer XRjlCcuBfVAWFA_5b8bgDy2xWz1dlbzbKwePcUkN4Blz29E3YxI6UQ"
-            },
-            {
-                "keyType": "Accept",
-                "keyValue": "",
-                "valueType": "other",
-                "valueValue": "application/hal+json"
-            }
-        ],
-        "x": 390,
-        "y": 120,
-        "wires": [
-            [
-                "a9aa20ca8bbc69c3"
-            ]
-        ]
-    },
-    {
-        "id": "a9aa20ca8bbc69c3",
-        "type": "debug",
-        "z": "845e1abd965019b2",
-        "name": "debug 218",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 590,
-        "y": 100,
-        "wires": []
-    },
-    {
         "id": "4293a5ef2ed10d3f",
         "type": "inject",
         "z": "845e1abd965019b2",
@@ -16263,9 +16174,7 @@
         "x": 570,
         "y": 340,
         "wires": [
-            [
-                "a9aa20ca8bbc69c3"
-            ]
+            []
         ]
     },
     {
