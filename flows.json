@@ -16244,10 +16244,10 @@
         "z": "845e1abd965019b2",
         "name": "",
         "url": "https://localhost:55539/api/webserver/websites",
-        "method": 0,
+        "method": "0",
         "auth": "dd2d446f52636e01",
         "x": 750,
-        "y": 380,
+        "y": 400,
         "wires": [
             [
                 "a9aa20ca8bbc69c3"
@@ -16274,6 +16274,24 @@
         "name": "",
         "x": 670,
         "y": 200,
+        "wires": []
+    },
+    {
+        "id": "ce6b89db46d8053f",
+        "type": "amqp-out",
+        "z": "845e1abd965019b2",
+        "name": "",
+        "broker": "2f76d8b874d08554",
+        "exchangeName": "",
+        "exchangeType": "topic",
+        "exchangeRoutingKey": "",
+        "exchangeRoutingKeyType": "str",
+        "exchangeDurable": true,
+        "amqpProperties": "{ \"headers\": {} }",
+        "rpcTimeoutMilliseconds": 3000,
+        "outputs": 0,
+        "x": 200,
+        "y": 340,
         "wires": []
     },
     {
