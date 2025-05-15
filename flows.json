@@ -16713,8 +16713,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 380,
+        "x": 830,
+        "y": 240,
         "wires": [
             []
         ]
@@ -16781,8 +16781,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 420,
+        "x": 830,
+        "y": 280,
         "wires": [
             []
         ]
@@ -16824,8 +16824,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 460,
+        "x": 50,
+        "y": 400,
         "wires": [
             [
                 "a9377378005ee5af",
@@ -16849,8 +16849,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 460,
+        "x": 830,
+        "y": 320,
         "wires": [
             []
         ]
@@ -16867,8 +16867,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('QA', false);",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 460,
+        "x": 190,
+        "y": 400,
         "wires": [
             [
                 "48421e04b7fc2ac3"
@@ -16892,8 +16892,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 500,
+        "x": 50,
+        "y": 440,
         "wires": [
             [
                 "3a18902336b208d4",
@@ -16917,8 +16917,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 500,
+        "x": 830,
+        "y": 360,
         "wires": [
             []
         ]
@@ -16935,8 +16935,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('CIP', false);",
         "finalize": "",
         "libs": [],
-        "x": 350,
-        "y": 500,
+        "x": 190,
+        "y": 440,
         "wires": [
             [
                 "da4f0c7aa11de9f8"
@@ -16960,8 +16960,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 540,
+        "x": 50,
+        "y": 480,
         "wires": [
             [
                 "a934ea92e7d5ee8e",
@@ -16985,8 +16985,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 540,
+        "x": 830,
+        "y": 400,
         "wires": [
             []
         ]
@@ -17003,8 +17003,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('Checklists', false);",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 540,
+        "x": 210,
+        "y": 480,
         "wires": [
             [
                 "12c9090853f955a2"
@@ -17028,8 +17028,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 580,
+        "x": 50,
+        "y": 700,
         "wires": [
             [
                 "99c28a5c8014b942",
@@ -17053,8 +17053,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 580,
+        "x": 1010,
+        "y": 700,
         "wires": [
             []
         ]
@@ -17071,8 +17071,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('TaskManagement', false);",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 580,
+        "x": 790,
+        "y": 700,
         "wires": [
             [
                 "7c40de97e60490e6"
@@ -17096,8 +17096,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 620,
+        "x": 50,
+        "y": 740,
         "wires": [
             [
                 "81911de6f3bf7924",
@@ -17121,8 +17121,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 620,
+        "x": 1010,
+        "y": 740,
         "wires": [
             []
         ]
@@ -17139,8 +17139,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('Scheduler', false);",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 620,
+        "x": 760,
+        "y": 740,
         "wires": [
             [
                 "e528c97c63b05b47"
@@ -17164,8 +17164,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 660,
+        "x": 50,
+        "y": 780,
         "wires": [
             [
                 "daee3214e92d357c",
@@ -17189,8 +17189,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 660,
+        "x": 1010,
+        "y": 780,
         "wires": [
             []
         ]
@@ -17207,8 +17207,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('Workflow', false);",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 660,
+        "x": 760,
+        "y": 780,
         "wires": [
             [
                 "84263173e729c1ec"
@@ -17232,8 +17232,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 700,
+        "x": 50,
+        "y": 820,
         "wires": [
             [
                 "aa89438bfd5137b5",
@@ -17257,8 +17257,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 700,
+        "x": 1010,
+        "y": 820,
         "wires": [
             []
         ]
@@ -17275,8 +17275,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('ChecklistCreatorBySchedule', false);",
         "finalize": "",
         "libs": [],
-        "x": 420,
-        "y": 700,
+        "x": 820,
+        "y": 820,
         "wires": [
             [
                 "04e86219ccd5ae1a"
@@ -17300,8 +17300,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 740,
+        "x": 50,
+        "y": 860,
         "wires": [
             [
                 "ecea7b9b7934419b",
@@ -17325,8 +17325,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 740,
+        "x": 1010,
+        "y": 860,
         "wires": [
             []
         ]
@@ -17343,8 +17343,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('LabEquipment', false);",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 740,
+        "x": 780,
+        "y": 860,
         "wires": [
             [
                 "8410fc75694c140f"
@@ -17368,8 +17368,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 780,
+        "x": 50,
+        "y": 900,
         "wires": [
             [
                 "f70e1c2b3f8862bb",
@@ -17393,8 +17393,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 780,
+        "x": 1010,
+        "y": 900,
         "wires": [
             []
         ]
@@ -17411,8 +17411,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('Notifications', false);",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 780,
+        "x": 770,
+        "y": 900,
         "wires": [
             [
                 "146abe09de0de2bc"
@@ -17436,8 +17436,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 820,
+        "x": 50,
+        "y": 940,
         "wires": [
             [
                 "94029650daf25211",
@@ -17461,8 +17461,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 820,
+        "x": 450,
+        "y": 940,
         "wires": [
             []
         ]
@@ -17479,8 +17479,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('FileManager', false);",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 820,
+        "x": 210,
+        "y": 940,
         "wires": [
             [
                 "e56c212d1c77a4b4"
@@ -17504,8 +17504,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 860,
+        "x": 50,
+        "y": 980,
         "wires": [
             [
                 "bfb7259343163f04",
@@ -17529,8 +17529,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 860,
+        "x": 450,
+        "y": 980,
         "wires": [
             []
         ]
@@ -17547,8 +17547,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('BatchManagement', false);",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 860,
+        "x": 230,
+        "y": 980,
         "wires": [
             [
                 "9601b355545859e7"
@@ -17572,8 +17572,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 900,
+        "x": 50,
+        "y": 1020,
         "wires": [
             [
                 "023a086d026e90ce",
@@ -17597,8 +17597,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 900,
+        "x": 450,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -17615,8 +17615,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('ProductionManagement', false);",
         "finalize": "",
         "libs": [],
-        "x": 410,
-        "y": 900,
+        "x": 250,
+        "y": 1020,
         "wires": [
             [
                 "cc27b8b6a95f56ac"
@@ -17640,8 +17640,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 940,
+        "x": 50,
+        "y": 1060,
         "wires": [
             [
                 "2e9bec5f88457402",
@@ -17665,8 +17665,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 940,
+        "x": 450,
+        "y": 1060,
         "wires": [
             []
         ]
@@ -17683,8 +17683,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('DisplayManagement', false);",
         "finalize": "",
         "libs": [],
-        "x": 400,
-        "y": 940,
+        "x": 240,
+        "y": 1060,
         "wires": [
             [
                 "6c3fc79b48fe924e"
@@ -17708,8 +17708,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 980,
+        "x": 50,
+        "y": 1100,
         "wires": [
             [
                 "3e03509d5844d497",
@@ -17733,8 +17733,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 980,
+        "x": 450,
+        "y": 1100,
         "wires": [
             []
         ]
@@ -17751,8 +17751,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('ServiceManager', false);",
         "finalize": "",
         "libs": [],
-        "x": 380,
-        "y": 980,
+        "x": 220,
+        "y": 1100,
         "wires": [
             [
                 "5c715ead1aab6bfd"
@@ -17776,8 +17776,8 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 1020,
+        "x": 50,
+        "y": 1140,
         "wires": [
             [
                 "3bab47fcad2f7d9d",
@@ -17801,8 +17801,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 610,
-        "y": 1020,
+        "x": 450,
+        "y": 1140,
         "wires": [
             []
         ]
@@ -17819,8 +17819,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('IncidentManager', false);",
         "finalize": "",
         "libs": [],
-        "x": 390,
-        "y": 1020,
+        "x": 230,
+        "y": 1140,
         "wires": [
             [
                 "47fef28a43a455f9"
