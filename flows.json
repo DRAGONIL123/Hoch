@@ -521,17 +521,13 @@
             {
                 "x": 60,
                 "y": 80,
-                "wires": [
-                    {
-                        "id": "0fe3c1157ad5016c"
-                    }
-                ]
+                "wires": []
             }
         ],
         "out": [
             {
-                "x": 700,
-                "y": 80,
+                "x": 740,
+                "y": 100,
                 "wires": [
                     {
                         "id": "ebe93f1ea01cdd18",
@@ -3505,29 +3501,10 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 560,
-        "y": 80,
+        "x": 580,
+        "y": 40,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "0fe3c1157ad5016c",
-        "type": "template",
-        "z": "2d0368e857414e1b",
-        "name": "",
-        "field": "payload",
-        "fieldType": "msg",
-        "format": "handlebars",
-        "syntax": "mustache",
-        "template": "grant_type=client_credentials&client_id=Node-Red.Workflow&client_secret=7d15928b-9fe7-4cc1-a7f2-c42e14894d8d",
-        "output": "str",
-        "x": 200,
-        "y": 80,
-        "wires": [
-            [
-                "b04dee56cff4ce4a"
-            ]
         ]
     },
     {
@@ -3543,8 +3520,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 520,
-        "y": 120,
+        "x": 500,
+        "y": 160,
         "wires": []
     },
     {
