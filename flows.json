@@ -1,5 +1,13 @@
 [
     {
+        "id": "e69fb5ef6ac144e8",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "845e1abd965019b2",
         "type": "tab",
         "label": "Flow 1",
@@ -288,6 +296,22 @@
         "env": []
     },
     {
+        "id": "b0e3731ccf4912b5",
+        "type": "tab",
+        "label": "Поток 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "275b73b4c60ee97a",
+        "type": "tab",
+        "label": "Поток 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "266f5e7038bdea8e",
         "type": "tab",
         "label": "PeriodicalControlTasksForInspectionLots",
@@ -451,6 +475,22 @@
         "id": "fca5a13dcb9d9826",
         "type": "tab",
         "label": "QA Email",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ad574475a4b7e953",
+        "type": "tab",
+        "label": "NewFlow",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "828f16157ef919d1",
+        "type": "tab",
+        "label": "Поток 3",
         "disabled": false,
         "info": "",
         "env": []
@@ -3389,31 +3429,6 @@
         "type": "sqlitedb",
         "db": "C:\\Jenkins\\ping\\ping.db",
         "mode": "RWC"
-    },
-    {
-        "id": "53ef21ee93608bb9",
-        "type": "FlowHubCfg",
-        "apiToken": "fhb_WyIrZklCTm1icGZNS2hIOTBoVzRsOUlnPT0iLCJlZmVmTkJDOCt1VmNCd0J0NGxQeFRSQmNvUEJYc1JuTHBzT0dMUHVBQnZxcUNDb0M3VC91dldhRHF3OVJaVjdzM25rM1BGZWc5d0wvRDl6WGE0VUJWUmpLbHdWYmtNZFRycUJwaEMwczRWby93OXkwRXlYK0IzY1N4VXpVTzVDQ2Z4YmlkUzBmc2l2UE5CRWFMeFcwZWFUbnlmQklVdExZIl0",
-        "apiTokenType": "cred",
-        "fullname": "",
-        "email": "",
-        "flowid": "845e1abd965019b2",
-        "flowrevision": "Hoch",
-        "notab": false,
-        "pushcomment": "",
-        "pushnewflows": true,
-        "forcepush": true,
-        "tokens": [
-            {
-                "name": "Main",
-                "type": "cred",
-                "val": "fhb_WyIrZklCTm1icGZNS2hIOTBoVzRsOUlnPT0iLCJlZmVmTkJDOCt1VmNCd0J0NGxQeFRSQmNvUEJYc1JuTHBzT0dMUHVBQnZxcUNDb0M3VC91dldhRHF3OVJaVjdzM25rM1BGZWc5d0wvRDl6WGE0VUJWUmpLbHdWYmtNZFRycUJwaEMwczRWby93OXkwRXlYK0IzY1N4VXpVTzVDQ2Z4YmlkUzBmc2l2UE5CRWFMeFcwZWFUbnlmQklVdExZIl0"
-            }
-        ],
-        "flowrevisions": {
-            "845e1abd965019b2": "97295480673b4dd0ed1df78512b2c016832ce68c",
-            "31ab9164236cebec": "3147c752ae569964ad4319d8a62e6e70cf0c3639"
-        }
     },
     {
         "id": "b04dee56cff4ce4a",
@@ -16120,7 +16135,7 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 180,
+        "x": 220,
         "y": 120,
         "wires": [
             [
@@ -16164,11 +16179,10 @@
             }
         ],
         "x": 390,
-        "y": 220,
+        "y": 120,
         "wires": [
             [
-                "a9aa20ca8bbc69c3",
-                "ece8d449efda10b3"
+                "a9aa20ca8bbc69c3"
             ]
         ]
     },
@@ -16185,8 +16199,8 @@
         "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 630,
-        "y": 260,
+        "x": 590,
+        "y": 100,
         "wires": []
     },
     {
@@ -16210,8 +16224,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 220,
-        "y": 460,
+        "x": 200,
+        "y": 340,
         "wires": [
             [
                 "f485cf0462c8f387"
@@ -16223,15 +16237,15 @@
         "type": "function",
         "z": "845e1abd965019b2",
         "name": "function 25",
-        "func": "msg.headers = {'Access-Token' : 'Bearer XRjlCcuBfVAWFA_5b8bgDy2xWz1dlbzbKwePcUkN4Blz29E3YxI6UQ'};\nreturn msg;",
+        "func": "return msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 530,
-        "y": 400,
+        "x": 390,
+        "y": 340,
         "wires": [
             [
                 "b0a36012355357e4"
@@ -16244,55 +16258,15 @@
         "z": "845e1abd965019b2",
         "name": "",
         "url": "https://localhost:55539/api/webserver/websites",
-        "method": "0",
+        "method": 0,
         "auth": "dd2d446f52636e01",
-        "x": 750,
-        "y": 400,
+        "x": 570,
+        "y": 340,
         "wires": [
             [
                 "a9aa20ca8bbc69c3"
             ]
         ]
-    },
-    {
-        "id": "fa0b3c91d80a7e18",
-        "type": "Seeker",
-        "z": "845e1abd965019b2",
-        "name": "",
-        "x": 50,
-        "y": 160,
-        "wires": [
-            [
-                "76252b674e9cbae5"
-            ]
-        ]
-    },
-    {
-        "id": "ece8d449efda10b3",
-        "type": "Sink",
-        "z": "845e1abd965019b2",
-        "name": "",
-        "x": 670,
-        "y": 200,
-        "wires": []
-    },
-    {
-        "id": "ce6b89db46d8053f",
-        "type": "amqp-out",
-        "z": "845e1abd965019b2",
-        "name": "",
-        "broker": "2f76d8b874d08554",
-        "exchangeName": "",
-        "exchangeType": "topic",
-        "exchangeRoutingKey": "",
-        "exchangeRoutingKeyType": "str",
-        "exchangeDurable": true,
-        "amqpProperties": "{ \"headers\": {} }",
-        "rpcTimeoutMilliseconds": 3000,
-        "outputs": 0,
-        "x": 200,
-        "y": 340,
-        "wires": []
     },
     {
         "id": "0bda422c673ae1cc",
@@ -18079,8 +18053,6 @@
         "y": 580,
         "wires": [
             [
-                "89e23be9765c3332",
-                "354f306a0cf41b7d",
                 "725248f0bb1683f5"
             ]
         ]
@@ -18097,8 +18069,8 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('firstRun', false);\nglobal.set('server', 'Develop_226');",
         "finalize": "",
         "libs": [],
-        "x": 180,
-        "y": 320,
+        "x": 200,
+        "y": 380,
         "wires": [
             [
                 "c81ace9bb68530b2",
@@ -18118,144 +18090,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 870,
-        "y": 360,
-        "wires": [
-            [
-                "c8cfcfef1ea5f174"
-            ]
-        ]
-    },
-    {
-        "id": "e47496e25b5a32bc",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "function 1",
-        "func": "msg.topic = \n\"SELECT serviceName, \\\n       JSON_GROUP_ARRAY(status) AS status_history \\\nFROM ServiceStatus \\\nWHERE dateChecked >= date('now', '-60 days') \\\nGROUP BY serviceName;\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1160,
-        "y": 580,
-        "wires": [
-            [
-                "c3bf94f311548d73"
-            ]
-        ]
-    },
-    {
-        "id": "89e23be9765c3332",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "SQL",
-        "func": "\nlet b = '';\nfor (const item of msg.response) {\n    b += `('${item.serviceName}', '${item.ok.toString()}', DATE('now')), `\n}\nb = b.slice(0, -2);\n\nconst a = 'INSERT INTO ServiceStatus (serviceName, status, dateChecked) VALUES ';\nconst c = ' ON CONFLICT(serviceName, dateChecked) DO UPDATE SET status=excluded.status';\n\nmsg.topic = a + b + c;\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1150,
-        "y": 340,
-        "wires": [
-            [
-                "6e6194f7308cb9b2"
-            ]
-        ]
-    },
-    {
-        "id": "04230879b2017a37",
-        "type": "http in",
-        "z": "31ab9164236cebec",
-        "name": "",
-        "url": "/api/ping",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1170,
-        "y": 540,
-        "wires": [
-            [
-                "e47496e25b5a32bc"
-            ]
-        ]
-    },
-    {
-        "id": "ce3bf8351036b541",
-        "type": "http response",
-        "z": "31ab9164236cebec",
-        "name": "",
-        "statusCode": "",
-        "headers": {},
-        "x": 1150,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "1c595b34ef405806",
-        "type": "websocket out",
-        "z": "31ab9164236cebec",
-        "name": "",
-        "server": "222c41f74918bbe8",
-        "client": "",
-        "x": 1290,
-        "y": 440,
-        "wires": []
-    },
-    {
-        "id": "354f306a0cf41b7d",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "WS",
-        "func": "msg.payload = msg.response;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1150,
-        "y": 440,
-        "wires": [
-            [
-                "1c595b34ef405806"
-            ]
-        ]
-    },
-    {
-        "id": "74c1b408dfb5e7c2",
-        "type": "http in",
-        "z": "31ab9164236cebec",
-        "name": "",
-        "url": "/api/ping/ws",
-        "method": "get",
-        "upload": false,
-        "swaggerDoc": "",
-        "x": 1180,
-        "y": 140,
-        "wires": [
-            [
-                "fbd5173afd327e67"
-            ]
-        ]
-    },
-    {
-        "id": "fbd5173afd327e67",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "Setup",
-        "func": "global.set('firstRun', true);\nmsg.noSend = true;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1150,
-        "y": 180,
+        "x": 830,
+        "y": 420,
         "wires": [
             [
                 "c8cfcfef1ea5f174"
@@ -18297,53 +18133,13 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 370,
-        "y": 160,
+        "x": 190,
+        "y": 340,
         "wires": [
             [
                 "c8cfcfef1ea5f174"
             ]
         ]
-    },
-    {
-        "id": "8fbc9f9158d9c37f",
-        "type": "comment",
-        "z": "31ab9164236cebec",
-        "name": "Request new data",
-        "info": "",
-        "x": 1190,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "01196696f42e9f83",
-        "type": "comment",
-        "z": "31ab9164236cebec",
-        "name": "Write to DB",
-        "info": "",
-        "x": 1170,
-        "y": 300,
-        "wires": []
-    },
-    {
-        "id": "41301d3e833d3053",
-        "type": "comment",
-        "z": "31ab9164236cebec",
-        "name": "Send actual data",
-        "info": "",
-        "x": 1180,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "0f272aa6f8b46299",
-        "type": "comment",
-        "z": "31ab9164236cebec",
-        "name": "Send historical data",
-        "info": "",
-        "x": 1190,
-        "y": 500,
-        "wires": []
     },
     {
         "id": "665f79a7a02a6520",
@@ -18373,7 +18169,7 @@
             }
         ],
         "x": 190,
-        "y": 140,
+        "y": 280,
         "wires": [
             [
                 "5d40ac377a659212"
@@ -18396,8 +18192,8 @@
         "useregex": false,
         "removeregexcommand": false,
         "outputs": 2,
-        "x": 870,
-        "y": 300,
+        "x": 830,
+        "y": 360,
         "wires": [
             [
                 "173e2584df81fa21"
@@ -18417,36 +18213,6 @@
         "y": 660,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "6e6194f7308cb9b2",
-        "type": "sqlite",
-        "z": "31ab9164236cebec",
-        "mydb": "1747653260eb100c",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "Write",
-        "x": 1270,
-        "y": 340,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "c3bf94f311548d73",
-        "type": "sqlite",
-        "z": "31ab9164236cebec",
-        "mydb": "1747653260eb100c",
-        "sqlquery": "msg.topic",
-        "sql": "",
-        "name": "Read",
-        "x": 1150,
-        "y": 620,
-        "wires": [
-            [
-                "ce3bf8351036b541"
-            ]
         ]
     },
     {
