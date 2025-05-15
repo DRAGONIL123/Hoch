@@ -16783,57 +16783,7 @@
         "x": 610,
         "y": 380,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
-        ]
-    },
-    {
-        "id": "bae147551dbbc611",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "response",
-        "func": "// ok = true если код ответа равен 200\nconst ok = msg.statusCode === 200 ? true : false;\n\n// если статус изменился с прошлой проверки\nconst isChange = global.get(msg.name) !== ok;\n\n// запоминаем новое значение если изменилось\nif (isChange) {\n    global.set(msg.name, ok);\n}\n\n// формируем блок ответа\nmsg.response = {\n    serviceName: msg.name,\n    ok: ok,\n    isChange: isChange,\n    time: new Date().getTime() - msg.timeStart\n}\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 840,
-        "y": 500,
-        "wires": [
-            [
-                "15d477c771f5ce98"
-            ]
-        ]
-    },
-    {
-        "id": "15d477c771f5ce98",
-        "type": "join",
-        "z": "31ab9164236cebec",
-        "name": "join",
-        "mode": "custom",
-        "build": "array",
-        "property": "response",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "accumulate": false,
-        "timeout": "",
-        "count": "18",
-        "reduceRight": false,
-        "reduceExp": "",
-        "reduceInit": "",
-        "reduceInitType": "",
-        "reduceFixup": "",
-        "x": 830,
-        "y": 540,
-        "wires": [
-            [
-                "fe7dfcb73d2c37ab"
-            ]
+            []
         ]
     },
     {
@@ -16901,9 +16851,7 @@
         "x": 610,
         "y": 420,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -16971,9 +16919,7 @@
         "x": 610,
         "y": 460,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17041,9 +16987,7 @@
         "x": 610,
         "y": 500,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17111,9 +17055,7 @@
         "x": 610,
         "y": 540,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17181,9 +17123,7 @@
         "x": 610,
         "y": 580,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17251,9 +17191,7 @@
         "x": 610,
         "y": 620,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17321,9 +17259,7 @@
         "x": 610,
         "y": 660,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17391,9 +17327,7 @@
         "x": 610,
         "y": 700,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17461,9 +17395,7 @@
         "x": 610,
         "y": 740,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17531,9 +17463,7 @@
         "x": 610,
         "y": 780,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17601,9 +17531,7 @@
         "x": 610,
         "y": 820,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17671,9 +17599,7 @@
         "x": 610,
         "y": 860,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17741,9 +17667,7 @@
         "x": 610,
         "y": 900,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17811,9 +17735,7 @@
         "x": 610,
         "y": 940,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17881,9 +17803,7 @@
         "x": 610,
         "y": 980,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -17951,9 +17871,7 @@
         "x": 610,
         "y": 1020,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -18020,9 +17938,7 @@
         "x": 610,
         "y": 1060,
         "wires": [
-            [
-                "bae147551dbbc611"
-            ]
+            []
         ]
     },
     {
@@ -18046,26 +17962,6 @@
         ]
     },
     {
-        "id": "fe7dfcb73d2c37ab",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "Create Msg",
-        "func": "const all = global.get('firstRun');\nconst server = global.get('server');\n\nconst icon = {\n    true: '✅',\n    false: '🛑'\n}\n\nlet message = ``;\n\nfor (let item of msg.response) {\n    if (item.isChange || all) {\n        message += `${icon[item.ok]} ${item.serviceName} (${item.time}ms)  \\r\\n`;\n    }\n}\n\nlet chatId = '';\n\nif (msg.topic !== 'auto' && !!msg.chatId) {\n    chatId = msg.chatId;\n} else {\n    chatId = -4054697456;//486991331; //\n}\n\nmsg.message = message;\n\nmsg.payload = {\n    content: message,\n    chatId: chatId,\n    type: 'message',\n    options: {\n        parse_mode: 'HTML'\n    }\n}\n\nglobal.set('firstRun', false);\n\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 850,
-        "y": 580,
-        "wires": [
-            [
-                "725248f0bb1683f5"
-            ]
-        ]
-    },
-    {
         "id": "c8cfcfef1ea5f174",
         "type": "function",
         "z": "31ab9164236cebec",
@@ -18083,49 +17979,6 @@
             [
                 "c81ace9bb68530b2",
                 "e22a90d2c8c292c8"
-            ]
-        ]
-    },
-    {
-        "id": "173e2584df81fa21",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "Setup",
-        "func": "global.set('firstRun', true);\nmsg.noSend = false;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 830,
-        "y": 420,
-        "wires": [
-            [
-                "c8cfcfef1ea5f174"
-            ]
-        ]
-    },
-    {
-        "id": "725248f0bb1683f5",
-        "type": "switch",
-        "z": "31ab9164236cebec",
-        "name": "",
-        "property": "noSend",
-        "propertyType": "msg",
-        "rules": [
-            {
-                "t": "false"
-            }
-        ],
-        "checkall": "true",
-        "repair": false,
-        "outputs": 1,
-        "x": 850,
-        "y": 620,
-        "wires": [
-            [
-                "c943cbb0ef42af52"
             ]
         ]
     },
@@ -18182,45 +18035,6 @@
             [
                 "5d40ac377a659212"
             ]
-        ]
-    },
-    {
-        "id": "8644b38279ce8bea",
-        "type": "telegram command",
-        "z": "31ab9164236cebec",
-        "name": "",
-        "command": "/check",
-        "description": "",
-        "registercommand": false,
-        "language": "",
-        "scope": "default",
-        "bot": "a64df35521da0350",
-        "strict": false,
-        "hasresponse": true,
-        "useregex": false,
-        "removeregexcommand": false,
-        "outputs": 2,
-        "x": 830,
-        "y": 360,
-        "wires": [
-            [
-                "173e2584df81fa21"
-            ],
-            []
-        ]
-    },
-    {
-        "id": "c943cbb0ef42af52",
-        "type": "telegram sender",
-        "z": "31ab9164236cebec",
-        "name": "Send Message",
-        "bot": "a64df35521da0350",
-        "haserroroutput": false,
-        "outputs": 1,
-        "x": 860,
-        "y": 660,
-        "wires": [
-            []
         ]
     },
     {
