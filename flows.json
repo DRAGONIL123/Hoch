@@ -17132,7 +17132,7 @@
         "type": "function",
         "z": "31ab9164236cebec",
         "name": "Scheduler",
-        "func": "const name = 'Scheduler';\nconst port = 52437;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\nreturn msg;",
+        "func": "const name = 'TaskManagement';\nconst port = 52436;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
