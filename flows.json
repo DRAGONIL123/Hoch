@@ -16765,28 +16765,6 @@
         "wires": []
     },
     {
-        "id": "dc8796eaac51a63c",
-        "type": "http request",
-        "z": "31ab9164236cebec",
-        "name": "Ping",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 610,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "e22a90d2c8c292c8",
         "type": "delay",
         "z": "31ab9164236cebec",
@@ -16803,74 +16781,11 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 420,
-        "wires": [
-            [
-                "db4fab655a4717c0",
-                "8713ccd969e9f67d"
-            ]
-        ]
-    },
-    {
-        "id": "c81ace9bb68530b2",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "Auth",
-        "func": "const name = 'Auth';\nconst port = 52431;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('Auth', false);\n",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
+        "x": 50,
         "y": 380,
         "wires": [
             [
-                "dc8796eaac51a63c"
-            ]
-        ]
-    },
-    {
-        "id": "12ed77a462754e41",
-        "type": "http request",
-        "z": "31ab9164236cebec",
-        "name": "Ping",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 610,
-        "y": 420,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "db4fab655a4717c0",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "BaseClassifiers",
-        "func": "const name = 'BaseClassifiers';\nconst port = 52432;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('BaseClassifiers', false);",
-        "finalize": "",
-        "libs": [],
-        "x": 380,
-        "y": 420,
-        "wires": [
-            [
-                "12ed77a462754e41"
+                "8713ccd969e9f67d"
             ]
         ]
     },
@@ -16891,54 +16806,11 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 460,
+        "x": 50,
+        "y": 420,
         "wires": [
             [
-                "a9377378005ee5af",
                 "3bc0db8c3f88edb6"
-            ]
-        ]
-    },
-    {
-        "id": "48421e04b7fc2ac3",
-        "type": "http request",
-        "z": "31ab9164236cebec",
-        "name": "Ping",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 610,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a9377378005ee5af",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "QA",
-        "func": "const name = 'QA';\nconst port = 52433;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('QA', false);",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 460,
-        "wires": [
-            [
-                "48421e04b7fc2ac3"
             ]
         ]
     },
@@ -16959,54 +16831,11 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
-        "y": 500,
+        "x": 50,
+        "y": 460,
         "wires": [
             [
-                "3a18902336b208d4",
                 "e32e14e0e06d137f"
-            ]
-        ]
-    },
-    {
-        "id": "da4f0c7aa11de9f8",
-        "type": "http request",
-        "z": "31ab9164236cebec",
-        "name": "Ping",
-        "method": "GET",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 610,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3a18902336b208d4",
-        "type": "function",
-        "z": "31ab9164236cebec",
-        "name": "CIP",
-        "func": "const name = 'CIP';\nconst port = 52434;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('CIP', false);",
-        "finalize": "",
-        "libs": [],
-        "x": 350,
-        "y": 500,
-        "wires": [
-            [
-                "da4f0c7aa11de9f8"
             ]
         ]
     },
@@ -17163,7 +16992,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
+        "x": 50,
         "y": 620,
         "wires": [
             [
@@ -17206,7 +17035,7 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('Scheduler', false);",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 200,
         "y": 620,
         "wires": [
             [
@@ -17231,7 +17060,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
+        "x": 50,
         "y": 660,
         "wires": [
             [
@@ -17274,7 +17103,7 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('Workflow', false);",
         "finalize": "",
         "libs": [],
-        "x": 360,
+        "x": 200,
         "y": 660,
         "wires": [
             [
@@ -17299,7 +17128,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
+        "x": 50,
         "y": 700,
         "wires": [
             [
@@ -17342,7 +17171,7 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('ChecklistCreatorBySchedule', false);",
         "finalize": "",
         "libs": [],
-        "x": 420,
+        "x": 260,
         "y": 700,
         "wires": [
             [
@@ -17367,7 +17196,7 @@
         "drop": false,
         "allowrate": false,
         "outputs": 1,
-        "x": 210,
+        "x": 50,
         "y": 740,
         "wires": [
             [
@@ -17410,7 +17239,7 @@
         "initialize": "// Добавленный здесь код будет исполняться\n// однократно при развертывании узла.\nglobal.set('LabEquipment', false);",
         "finalize": "",
         "libs": [],
-        "x": 380,
+        "x": 220,
         "y": 740,
         "wires": [
             [
@@ -17539,7 +17368,7 @@
         "type": "function",
         "z": "31ab9164236cebec",
         "name": "FileManager",
-        "func": "const name = 'FileManager';\nconst port = 52446;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\nreturn msg;",
+        "func": "",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17743,7 +17572,7 @@
         "type": "function",
         "z": "31ab9164236cebec",
         "name": "DisplayManagement",
-        "func": "const name = 'ProductionManagement';\nconst port = 52449;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;\nreturn msg;",
+        "func": "const name = 'BatchManagement';\nconst port = 52448;\n\n\n// настройки\nconst url = 'http://localhost'\nconst path = '/api/ping'\n\n\nmsg.timeStart = new Date().getTime();\nmsg.name = name;\nmsg.url = `${url}:${port}${path}`;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -17977,7 +17806,6 @@
         "y": 380,
         "wires": [
             [
-                "c81ace9bb68530b2",
                 "e22a90d2c8c292c8"
             ]
         ]
